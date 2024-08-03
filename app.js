@@ -28,5 +28,5 @@ app.use('/cart', cartRoute);
 app.use('/order', orderRoute);
 
 app.listen(8080, ()=>{
-    console.log('Server Berjalan di Port : 8080');
+    console.log('Server Berjalan');
 });
